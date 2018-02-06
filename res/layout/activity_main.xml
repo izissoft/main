@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.puzzle89.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="1218px"
+            android:layout_height="408px"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and2" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1218px"
+            android:layout_height="408px"
+
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and4" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and5" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1218px"
+            android:layout_height="408px"
+
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and7" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and8" />
+
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="406px"
+                android:layout_height="406px"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="changePosition"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/and9" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
